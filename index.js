@@ -6,8 +6,10 @@
 // }
 
 //2. Write a function named favoriteNumber that logs your favorite number (e.g., 42) to the console.
-
-
+// function favoriteNumber(){
+//     let number = 42; //??? 
+//     console.log(number); 
+// }
 
 
 //3. Create a function called magicEightBall that logs a random response from the following list: "Yes", "No", "Maybe", or "Ask again later".
@@ -86,10 +88,32 @@
 // }
 
 //13. Create a function called countVowels that takes a string as a parameter and logs the number of vowels (a, e, i, o, u) in that string.
-function countVowels(word){
-    
-}
 
+// function countVowels(words){
+//     const vowels = `a, e, i, o, u, A, E, I, O, U`;
+//     let count = 0; 
+
+//     for (let word of words) {
+//         if (vowels.includes(word)) {
+//             count++;
+            
+//         }  
+//     }
+//     console.log(`${words} has ${count} vowels`)
+// }
+
+
+//14. Write a function named calculateDiscount that takes the original price and the discount percentage as parameters and logs the price after discount to the console.
+// function calculateDiscount(originalPrice, discountInPercentage){
+//     const discount = (originalPrice * discountInPercentage)/100;
+//     const priceAfterDiscount = originalPrice - discount;
+//     return priceAfterDiscount;
+// }
+
+//15. Create a function called reverseString that takes a string as a parameter and logs the string reversed to the console.
+// function reverseString(word){
+
+// }
 
 
 
